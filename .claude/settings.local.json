@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"c:/Users/kanwa/OneDrive/Desktop/Vrtek/FastApi/main.py\":*)",
+      "Bash(\"c:/Users/kanwa/OneDrive/Desktop/Vrtek/FastApi/.env\":*)",
+      "Bash(\"c:/Users/kanwa/OneDrive/Desktop/Vrtek/FastApi/app/models.py\":*)",
+      "Bash(__NEW_LINE_3d15330d05a4be8c__ cat:*)",
+      "Bash(\"c:/Users/kanwa/OneDrive/Desktop/Vrtek/FastApi/app/schemas.py\":*)",
+      "Bash(__NEW_LINE_3d15330d05a4be8c__ echo:*)",
+      "Bash(venv/Scripts/pip show:*)",
+      "Bash(venv/Scripts/pip install:*)",
+      "Bash(venv/Scripts/python generate_doc.py)"
+    ]
+  }
+}
