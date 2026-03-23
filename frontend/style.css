@@ -1,0 +1,23 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: Arial, sans-serif; background:#f0f4f8; color:#333; }
+.container { max-width:500px; margin:60px auto; padding:20px; }
+h1 { text-align:center; color:#1E3A5F; margin-bottom:24px; }
+.card { background:#fff; padding:24px; border-radius:12px;
+        box-shadow:0 2px 8px rgba(0,0,0,0.1); margin-bottom:16px; }
+input { width:100%; padding:10px 14px; margin-bottom:12px;
+        border:1px solid #ddd; border-radius:8px; font-size:14px; }
+button { padding:10px 20px; border:none; border-radius:8px;
+         cursor:pointer; font-size:14px; background:#ddd; }
+button.primary { background:#1E3A5F; color:#fff; }
+button.logout { background:#e74c3c; color:#fff; }
+.btn-row { display:flex; gap:8px; }
+.btn-row button { flex:1; }
+.header { display:flex; justify-content:space-between; align-items:center;
+          margin-bottom:16px; }
+.task-item { background:#fff; padding:14px 18px; border-radius:10px;
+             margin-bottom:10px; display:flex; align-items:center; gap:10px;
+             box-shadow:0 1px 4px rgba(0,0,0,0.08); }
+.task-item.done span { text-decoration:line-through; color:#999; }
+.task-item span { flex:1; }
+.task-item button { padding:6px 12px; font-size:12px; }
+#auth-msg { margin-top:10px; color:#e74c3c; font-size:13px; }

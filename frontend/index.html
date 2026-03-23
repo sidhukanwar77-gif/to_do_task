@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Task Manager</title>
+  <link rel='stylesheet' href='style.css'>
+</head>
+<body>
+  <div class='container'>
+    <!-- Auth Section -->
+    <div id='auth-section'>
+      <h1>Task Manager</h1>
+      <div class='card'>
+        <input id='username' placeholder='Username' />
+        <input id='password' type='password' placeholder='Password' />
+        <div class='btn-row'>
+          <button onclick='register()'>Register</button>
+          <button onclick='login()' class='primary'>Login</button>
+        </div>
+        <p id='auth-msg'></p>
+      </div>
+    </div>
+
+    <!-- App Section (shown after login) -->
+    <div id='app-section' style='display:none'>
+      <div class='header'>
+        <h1>My Tasks</h1>
+        <button onclick='logout()' class='logout'>Logout</button>
+      </div>
+      <div class='card'>
+        <input id='task-input' placeholder='New task...' />
+        <button onclick='createTask()' class='primary'>Add Task</button>
+      </div>
+      <div id='task-list'></div>
+    </div>
+  </div>
+  <script src='app.js'></script>
+</body>
+</html>
